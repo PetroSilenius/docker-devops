@@ -1,0 +1,24 @@
+touch logs.txt
+
+
+docker run -v $(pwd)/logs.txt:/usr/app/logs.txt devopsdockeruh/first_volume_exercise
+
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+Wrote to file /usr/app/logs.txt
+
+
+nano logs.txt
+
+Thu, 04 Jun 2020 06:02:32 GMT
+Thu, 04 Jun 2020 06:02:35 GMT
+Thu, 04 Jun 2020 06:02:38 GMT
+Thu, 04 Jun 2020 06:02:41 GMT
+Secret message is:
+"Volume bind mount is easy"
+Thu, 04 Jun 2020 06:02:47 GMT
+Thu, 04 Jun 2020 06:02:50 GMT
