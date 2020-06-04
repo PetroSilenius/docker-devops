@@ -1,0 +1,6 @@
+docker build -t front .
+docker run -p 5000:5000 -d front
+
+
+docker build -t back .
+docker run -v $(pwd)/logs.txt:/myapp/logs.txt -p 8000:8000 back
